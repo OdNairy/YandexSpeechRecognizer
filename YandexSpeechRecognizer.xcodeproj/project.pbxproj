@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECC154818DA3096007218C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC154718DA3096007218C3 /* Foundation.framework */; };
+		FECC155918DA3096007218C3 /* YandexSpeechRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FECC155818DA3096007218C3 /* YandexSpeechRecognizer.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FECC154418DA3096007218C3 /* YandexSpeechRecognizer.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = YandexSpeechRecognizer.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FECC154718DA3096007218C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FECC154C18DA3096007218C3 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		FECC154D18DA3096007218C3 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FECC154F18DA3096007218C3 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FECC155318DA3096007218C3 /* YandexSpeechRecognizer.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = YandexSpeechRecognizer.plist; path = Package/Library/PreferenceLoader/Preferences/YandexSpeechRecognizer.plist; sourceTree = "<group>"; };
+		FECC155418DA3096007218C3 /* YandexSpeechRecognizerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YandexSpeechRecognizerIcon.png; path = Package/Library/PreferenceLoader/Preferences/YandexSpeechRecognizerIcon.png; sourceTree = "<group>"; };
+		FECC155518DA3096007218C3 /* YandexSpeechRecognizerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YandexSpeechRecognizerIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/YandexSpeechRecognizerIcon@2x.png"; sourceTree = "<group>"; };
+		FECC155618DA3096007218C3 /* YandexSpeechRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YandexSpeechRecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		FECC155718DA3096007218C3 /* YandexSpeechRecognizer.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = YandexSpeechRecognizer.xm; sourceTree = "<group>"; };
+		FECC155818DA3096007218C3 /* YandexSpeechRecognizer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YandexSpeechRecognizer.mm; sourceTree = "<group>"; };
+		FECC155C18DA3096007218C3 /* YandexSpeechRecognizer.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = YandexSpeechRecognizer.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/YandexSpeechRecognizer.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FECC154018DA3096007218C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECC154818DA3096007218C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FECC153918DA3096007218C3 = {
+			isa = PBXGroup;
+			children = (
+				FECC154918DA3096007218C3 /* YandexSpeechRecognizer */,
+				FECC154618DA3096007218C3 /* Frameworks */,
+				FECC154518DA3096007218C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FECC154518DA3096007218C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FECC154418DA3096007218C3 /* YandexSpeechRecognizer.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FECC154618DA3096007218C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FECC154718DA3096007218C3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FECC154918DA3096007218C3 /* YandexSpeechRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				FECC155718DA3096007218C3 /* YandexSpeechRecognizer.xm */,
+				FECC155818DA3096007218C3 /* YandexSpeechRecognizer.mm */,
+				FECC154A18DA3096007218C3 /* Package */,
+				FECC154E18DA3096007218C3 /* Supporting Files */,
+			);
+			path = YandexSpeechRecognizer;
+			sourceTree = "<group>";
+		};
+		FECC154A18DA3096007218C3 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FECC154B18DA3096007218C3 /* DEBIAN */,
+				FECC155018DA3096007218C3 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		FECC154B18DA3096007218C3 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FECC154C18DA3096007218C3 /* control.txt */,
+				FECC154D18DA3096007218C3 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FECC154E18DA3096007218C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FECC154F18DA3096007218C3 /* PackageVersion.plist */,
+				FECC155618DA3096007218C3 /* YandexSpeechRecognizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FECC155018DA3096007218C3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FECC155118DA3096007218C3 /* PreferenceLoader */,
+				FECC155A18DA3096007218C3 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		FECC155118DA3096007218C3 /* PreferenceLoader */ = {
+			isa = PBXGroup;
+			children = (
+				FECC155218DA3096007218C3 /* Preferences */,
+			);
+			name = PreferenceLoader;
+			sourceTree = "<group>";
+		};
+		FECC155218DA3096007218C3 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				FECC155318DA3096007218C3 /* YandexSpeechRecognizer.plist */,
+				FECC155418DA3096007218C3 /* YandexSpeechRecognizerIcon.png */,
+				FECC155518DA3096007218C3 /* YandexSpeechRecognizerIcon@2x.png */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		FECC155A18DA3096007218C3 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				FECC155B18DA3096007218C3 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		FECC155B18DA3096007218C3 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				FECC155C18DA3096007218C3 /* YandexSpeechRecognizer.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FECC154118DA3096007218C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FECC154318DA3096007218C3 /* YandexSpeechRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FECC155F18DA3096007218C3 /* Build configuration list for PBXNativeTarget "YandexSpeechRecognizer" */;
+			buildPhases = (
+				FECC153E18DA3096007218C3 /* ShellScript */,
+				FECC153F18DA3096007218C3 /* Sources */,
+				FECC154018DA3096007218C3 /* Frameworks */,
+				FECC154118DA3096007218C3 /* Headers */,
+				FECC154218DA3096007218C3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YandexSpeechRecognizer;
+			productName = YandexSpeechRecognizer;
+			productReference = FECC154418DA3096007218C3 /* YandexSpeechRecognizer.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FECC153A18DA3096007218C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = FECC153D18DA3096007218C3 /* Build configuration list for PBXProject "YandexSpeechRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FECC153918DA3096007218C3;
+			productRefGroup = FECC154518DA3096007218C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FECC154318DA3096007218C3 /* YandexSpeechRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FECC153E18DA3096007218C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		FECC154218DA3096007218C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FECC153F18DA3096007218C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECC155918DA3096007218C3 /* YandexSpeechRecognizer.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FECC155D18DA3096007218C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		FECC155E18DA3096007218C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		FECC156018DA3096007218C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YandexSpeechRecognizer/YandexSpeechRecognizer-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		FECC156118DA3096007218C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YandexSpeechRecognizer/YandexSpeechRecognizer-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FECC153D18DA3096007218C3 /* Build configuration list for PBXProject "YandexSpeechRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECC155D18DA3096007218C3 /* Debug */,
+				FECC155E18DA3096007218C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FECC155F18DA3096007218C3 /* Build configuration list for PBXNativeTarget "YandexSpeechRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FECC156018DA3096007218C3 /* Debug */,
+				FECC156118DA3096007218C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FECC153A18DA3096007218C3 /* Project object */;
+}
