@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		FECC154818DA3096007218C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC154718DA3096007218C3 /* Foundation.framework */; };
 		FECC155918DA3096007218C3 /* YandexSpeechRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FECC155818DA3096007218C3 /* YandexSpeechRecognizer.mm */; };
+		FECC156A18DA30BE007218C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156218DA30BE007218C3 /* SystemConfiguration.framework */; };
+		FECC156B18DA30BE007218C3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156318DA30BE007218C3 /* CoreLocation.framework */; };
+		FECC156C18DA30BE007218C3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156418DA30BE007218C3 /* AudioToolbox.framework */; };
+		FECC156D18DA30BE007218C3 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156518DA30BE007218C3 /* CoreAudio.framework */; };
+		FECC156E18DA30BE007218C3 /* YandexSpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156618DA30BE007218C3 /* YandexSpeechKit.framework */; };
+		FECC156F18DA30BE007218C3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156718DA30BE007218C3 /* QuartzCore.framework */; };
+		FECC157018DA30BE007218C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156818DA30BE007218C3 /* UIKit.framework */; };
+		FECC157118DA30BE007218C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC156918DA30BE007218C3 /* CoreGraphics.framework */; };
+		FECC157318DA30DD007218C3 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FECC157218DA30DD007218C3 /* libsubstrate.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +30,18 @@
 		FECC155418DA3096007218C3 /* YandexSpeechRecognizerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = YandexSpeechRecognizerIcon.png; path = Package/Library/PreferenceLoader/Preferences/YandexSpeechRecognizerIcon.png; sourceTree = "<group>"; };
 		FECC155518DA3096007218C3 /* YandexSpeechRecognizerIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "YandexSpeechRecognizerIcon@2x.png"; path = "Package/Library/PreferenceLoader/Preferences/YandexSpeechRecognizerIcon@2x.png"; sourceTree = "<group>"; };
 		FECC155618DA3096007218C3 /* YandexSpeechRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YandexSpeechRecognizer-Prefix.pch"; sourceTree = "<group>"; };
-		FECC155718DA3096007218C3 /* YandexSpeechRecognizer.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = YandexSpeechRecognizer.xm; sourceTree = "<group>"; };
+		FECC155718DA3096007218C3 /* YandexSpeechRecognizer.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YandexSpeechRecognizer.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		FECC155818DA3096007218C3 /* YandexSpeechRecognizer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YandexSpeechRecognizer.mm; sourceTree = "<group>"; };
 		FECC155C18DA3096007218C3 /* YandexSpeechRecognizer.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = YandexSpeechRecognizer.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/YandexSpeechRecognizer.plist; sourceTree = "<group>"; };
+		FECC156218DA30BE007218C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FECC156318DA30BE007218C3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FECC156418DA30BE007218C3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FECC156518DA30BE007218C3 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		FECC156618DA30BE007218C3 /* YandexSpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YandexSpeechKit.framework; path = "../../../../Downloads/YandexSpeechKit-2.0-ios/YandexSpeechKit.framework"; sourceTree = "<group>"; };
+		FECC156718DA30BE007218C3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FECC156818DA30BE007218C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FECC156918DA30BE007218C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FECC157218DA30DD007218C3 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,7 +49,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FECC157318DA30DD007218C3 /* libsubstrate.dylib in Frameworks */,
+				FECC156B18DA30BE007218C3 /* CoreLocation.framework in Frameworks */,
+				FECC157018DA30BE007218C3 /* UIKit.framework in Frameworks */,
+				FECC156A18DA30BE007218C3 /* SystemConfiguration.framework in Frameworks */,
+				FECC157118DA30BE007218C3 /* CoreGraphics.framework in Frameworks */,
+				FECC156F18DA30BE007218C3 /* QuartzCore.framework in Frameworks */,
+				FECC156E18DA30BE007218C3 /* YandexSpeechKit.framework in Frameworks */,
 				FECC154818DA3096007218C3 /* Foundation.framework in Frameworks */,
+				FECC156D18DA30BE007218C3 /* CoreAudio.framework in Frameworks */,
+				FECC156C18DA30BE007218C3 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +85,15 @@
 		FECC154618DA3096007218C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FECC157218DA30DD007218C3 /* libsubstrate.dylib */,
+				FECC156218DA30BE007218C3 /* SystemConfiguration.framework */,
+				FECC156318DA30BE007218C3 /* CoreLocation.framework */,
+				FECC156418DA30BE007218C3 /* AudioToolbox.framework */,
+				FECC156518DA30BE007218C3 /* CoreAudio.framework */,
+				FECC156618DA30BE007218C3 /* YandexSpeechKit.framework */,
+				FECC156718DA30BE007218C3 /* QuartzCore.framework */,
+				FECC156818DA30BE007218C3 /* UIKit.framework */,
+				FECC156918DA30BE007218C3 /* CoreGraphics.framework */,
 				FECC154718DA3096007218C3 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -301,12 +337,24 @@
 		FECC156018DA3096007218C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/odnairy/Downloads/YandexSpeechKit-2.0-ios",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YandexSpeechRecognizer/YandexSpeechRecognizer-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
@@ -321,12 +369,24 @@
 		FECC156118DA3096007218C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ARCHS = (
+					armv7s,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/odnairy/Downloads/YandexSpeechKit-2.0-ios",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YandexSpeechRecognizer/YandexSpeechRecognizer-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
 				iOSOpenDevCopyOnBuild = NO;
